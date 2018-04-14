@@ -1,0 +1,4 @@
+language: objective-c
+
+script:
+ - xcodebuild -configuration Deployment -target Openfire clean install
