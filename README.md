@@ -1,0 +1,1 @@
+# openfire-macos-preference-pane
