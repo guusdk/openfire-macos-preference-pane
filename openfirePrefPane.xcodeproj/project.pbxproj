@@ -369,7 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					i386,
+					x86_64,
 					ppc,
 				);
 				COPY_PHASE_STRIP = YES;
@@ -455,7 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "x86_64 ppc";
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -502,7 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					i386,
+					x86_64,
 					ppc,
 				);
 				COPY_PHASE_STRIP = YES;
@@ -586,7 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "x86_64 ppc";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = 4.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -598,7 +598,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 ppc";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = 4.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
