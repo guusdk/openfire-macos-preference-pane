@@ -1,4 +1,6 @@
 language: objective-c
 
 script:
+ - gcc --version
+ - whereis gcc
  - xcodebuild -configuration Deployment -target Openfire clean install
